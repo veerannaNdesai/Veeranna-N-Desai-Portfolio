@@ -310,6 +310,20 @@ h1 {
     background: rgba(255, 255, 255, 0.03);
 }
 
+.btn-cv {
+    border: 1px solid var(--border-accent);
+    color: var(--accent);
+    background: var(--accent-dim);
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-cv:hover {
+    background: rgba(56, 189, 248, 0.2);
+    box-shadow: 0 0 20px var(--accent-glow);
+    transform: translateY(-2px);
+}
+
 /* =============================================
    HERO ROW — text left, photo right
    ============================================= */
